@@ -14,7 +14,7 @@
             "kind": "Scheduled",
             "apiVersion": "2021-10-01-preview",
             "properties": {
-                "displayName": "LSASS-DUMP T1003.001",
+                "displayName": "LSASS MEMORY T1003.001",
                 "description": "Parse for LSASS credential dumping. References https://attack.mitre.org/techniques/T1003/001/ & https://medium.com/@markmotig/some-ways-to-dump-lsass-exe-c4a75fdc49bf",
                 "severity": "Medium",
                 "enabled": true,
