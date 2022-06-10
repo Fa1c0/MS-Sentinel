@@ -1,0 +1,22 @@
+// name: LSASS-DUMP T1003.001
+// description: |
+// 'Parses for LSASS credential dumping. https://attack.mitre.org/techniques/T1003/001/'
+//tactics:
+//  - CredentialAccess
+//relevantTechniques:
+//  - T1003
+//requiredDataConnectors:
+//  - connectorId: SecurityEvents
+//    dataTypes:
+//     - SecurityEvent
+//entityMappings:
+//	- entityType: Account
+//    fieldMappings:
+//		- identifier: FullName
+//        columnName: AccountCustomEntity
+//  - entityType: Host
+//    fieldMappings:
+//      - identifier: FullName
+//        columnName: HostCustomEntity
+// query: union DeviceEvents,SecurityEvent,DeviceProcessEvents
+| where FileName has_any ("lsass.dmp", "dumpert.dmp") or CommandLine has_any ("procdump", "lsass", "CredentialGuard", "Mimikatz", "sekurlsa" "comsvcs", "MiniDump", "CredentialGuard", "sharpdump", "Outflank")
