@@ -19,4 +19,4 @@
 //      - identifier: FullName
 //        columnName: HostCustomEntity
 // query: union DeviceEvents,SecurityEvent,DeviceProcessEvents
-| where FileName has_any ("lsass.dmp", "dumpert.dmp") or CommandLine has_any ("procdump", "lsass", "CredentialGuard", "Mimikatz", "sekurlsa" "comsvcs", "MiniDump", "CredentialGuard", "sharpdump", "Outflank")
+| where FileName has_any ("lsass.dmp", "dumpert.dmp") or CommandLine has_any ("procdump", "lsass", "CredentialGuard", "Mimikatz", "sekurlsa" "comsvcs", "MiniDump", "CredentialGuard", "sharpdump", "Outflank", "createdump")
