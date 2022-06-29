@@ -1,6 +1,4 @@
 xml
 csproj
 rsp
-/logger:TargetLogger
-C:\Loggers\TargetLogger.dll
 proj
