@@ -1,5 +1,0 @@
-xml
-csproj
-rsp
-/logger:TargetLogger,C:\Loggers\TargetLogger.dll;MyParameters,Foo
-proj
