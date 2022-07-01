@@ -1,1 +1,1 @@
-OpenHandleCollector.exe.lock
+C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\OpenHandleCollector.exe.lock
