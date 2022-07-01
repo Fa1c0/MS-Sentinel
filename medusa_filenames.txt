@@ -2,11 +2,9 @@
 .matlock20
 .marlock02
 .readinstructions
-.bec
 .mylock
 .jpz.nz
 .marlock11
-.cn
 .NET1
 .key1
 .fileslocked
