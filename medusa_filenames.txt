@@ -16,7 +16,6 @@
 .deadfilesgr
 .tyco
 .lockdata7
-.rs
 .faratak
 .uslockhh
 .lockfiles
