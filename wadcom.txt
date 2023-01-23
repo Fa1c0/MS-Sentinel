@@ -42,3 +42,4 @@ enum4linux
 dementor
 crackmapexec
 bloodhound
+Invoke-ShareFinder
