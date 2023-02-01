@@ -3,3 +3,4 @@ vnc
 anydesk
 teamviewer
 secureconnect
+support.client
