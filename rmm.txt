@@ -1,3 +1,5 @@
 dwservice
 vnc
 anydesk
+teamviewer
+zoom
