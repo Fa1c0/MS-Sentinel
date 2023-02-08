@@ -1,0 +1,4 @@
+EmailAttachmentInfo
+| where FileType contains "onenote"
+| summarize count() by SenderFromAddress, bin(TimeGenerated, 1d)
+| render columnchart 
