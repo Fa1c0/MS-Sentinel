@@ -13,8 +13,6 @@ Cmstp.
 ConfigSecurityPolicy.
 Conhost.
 Control.
-Csc.exe -
-Csc -
 Cscript.
 CustomShellHost.
 DataSvcUtil.
