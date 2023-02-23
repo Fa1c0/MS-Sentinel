@@ -132,7 +132,6 @@ dnx.
 Dotnet.
 Dump64.
 Dxcap.
-Excel.
 FsiAnyCpu.
 Mftrace.
 Msdeploy.
@@ -141,7 +140,6 @@ Mspub.
 msxsl.
 ntdsutil.
 OpenConsole.
-Powerpnt.
 Procdump.
 ProtocolHandler.
 rcsi.
@@ -155,7 +153,6 @@ Update.
 VSIISExeLauncher.
 vsjitdebugger.
 Wfc.
-Winword.
 Wsl.
 CL_LoadAssembly.
 CL_Mutexverifiers.
