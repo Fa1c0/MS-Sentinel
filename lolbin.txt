@@ -91,7 +91,6 @@ Ttdinject.
 Tttracer.
 Unregmp2.
 vbc.
-Verclsid.
 Wab.
 winget.
 Wlrmdr.
