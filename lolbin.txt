@@ -25,7 +25,6 @@ Dnscmd.
 Esentutl.
 Eventvwr.
 Expand.
-Explorer.
 Extexport.
 Extrac32.
 Findstr.
