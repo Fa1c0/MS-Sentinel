@@ -141,7 +141,7 @@ msxsl.
 ntdsutil.
 OpenConsole.
 Procdump.
-ProtocolHandler.
+ProtocolHandler.exe https
 rcsi.
 Remote.
 Sqldumper.
