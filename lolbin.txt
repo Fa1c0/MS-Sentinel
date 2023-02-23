@@ -134,7 +134,7 @@ FsiAnyCpu.
 Mftrace.
 Msdeploy.
 MsoHtmEd.
-Mspub.
+Mspub.exe https
 msxsl.
 ntdsutil.
 OpenConsole.
