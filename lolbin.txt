@@ -102,7 +102,6 @@ Xwizard.
 fsutil.
 Advpackdll.
 Deskcpl.
-Dfshimdll.
 Ieadvpackdll.
 Ieframedll.
 Mshtmldll.
