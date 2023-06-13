@@ -1,0 +1,15 @@
+let lastmonthNumber = getmonth(datetime(now)) - 1;
+let lastmonth = iff(lastmonthNumber == 0, 12, lastmonthNumber);
+let year = getyear(datetime(now)) - iff(lastmonth == 12, 1, 0);
+let dateStart = make_datetime(year, lastmonth, 01);
+let dateEnd = endofmonth(dateStart);
+let rmm = externaldata(Process:string) [@"https://raw.githubusercontent.com/Fa1c0/MS-Sentinel/main/rmm.txt"];
+let seen_wkstns = DeviceProcessEvents
+| where TimeGenerated between(dateStart .. dateEnd)
+| where ProcessVersionInfoFileDescription has_any (rmm)
+| summarize makelist(DeviceName);
+DeviceProcessEvents
+| where TimeGenerated > ago(12h)
+| where ProcessVersionInfoFileDescription has_any (rmm)
+| where DeviceName !in (seen_wkstns)
+| summarize count() by DeviceName
