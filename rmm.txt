@@ -5,3 +5,4 @@ teamviewer
 secureconnect
 support.client
 dwagent
+screenconnect
