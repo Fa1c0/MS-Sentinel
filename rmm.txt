@@ -6,3 +6,4 @@ secureconnect
 support.client
 dwagent
 screenconnect
+tailscale
