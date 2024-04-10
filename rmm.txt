@@ -9,3 +9,8 @@ screenconnect
 tailscale
 famatech
 connectwise
+ninjarmm
+atera
+logmein
+manageeninge
+desktopcentral
