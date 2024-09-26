@@ -13,3 +13,5 @@ ninjarmm
 atera
 manageeninge
 desktopcentral
+ammyadmin
+rustdesk
