@@ -1,8 +1,7 @@
 nltest  /dclist
-nltest /domain_trusts
-nltest /domain_trusts
+nltest  /domain_trusts
 net  group \"Enterprise admins\" /domain
 net1  group \"Enterprise admins\" /domain
-net  group \"Domain admins\" /domain
-net1  group \"Domain admins\" /domain
-cmdkey /list
+Net  group \"Domain admins\" /domain
+Net1  group \"Domain admins\" /domain
+cmdkey  /list
