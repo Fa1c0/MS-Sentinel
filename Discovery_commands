@@ -1,4 +1,4 @@
-nltest /dclist
+nltest  /dclist
 nltest /domain_trusts
 nltest /domain_trusts
 net  group \"Enterprise admins\" /domain
