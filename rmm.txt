@@ -16,3 +16,4 @@ desktopcentral
 ammyadmin
 rustdesk
 netsupportsoftware
+ms-quick-assist
