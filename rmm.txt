@@ -1,9 +1,7 @@
 dwservice
 vnc
 anydesk
-teamviewer
 secureconnect
-support.client
 dwagent
 screenconnect
 tailscale
@@ -17,3 +15,6 @@ ammyadmin
 rustdesk
 netsupportsoftware
 ms-quick-assist
+zoho
+syncro
+splashtop
