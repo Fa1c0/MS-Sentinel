@@ -18,5 +18,3 @@ ms-quick-assist
 zoho
 syncro
 splashtop
-teamviewer
-rapid7
