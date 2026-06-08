@@ -18,3 +18,5 @@ ms-quick-assist
 zoho
 syncro
 splashtop
+bomgar
+superops
